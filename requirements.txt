@@ -1,5 +1,2 @@
-streamlit
-tempfile
-os
 fitz
 requests
