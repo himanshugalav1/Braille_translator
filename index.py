@@ -1,7 +1,7 @@
 import streamlit as st
 import tempfile
 import os
-import fitz  # PyMuPDF
+import fitz
 import requests
 
 url = "https://microsoft-translator-text.p.rapidapi.com/translate"
@@ -146,48 +146,48 @@ braille_dict = {
 }
 
 lang2code = {
-    'Arabic': 'ar',
-    'Chinese Simplified': 'zh-Hans',
-    'Chinese Traditional': 'zh-Hant',
-    'English': 'en',
-    'French': 'fr',
-    'German': 'de',
-    'Spanish': 'es',
-    'Italian': 'it',
-    'Japanese': 'ja',
-    'Korean': 'ko',
-    'Dutch': 'nl',
-    'Portuguese': 'pt',
-    'Russian': 'ru',
-    'Turkish': 'tr',
-    'Vietnamese': 'vi',
-    'Hindi': 'hi',
-    'Bengali': 'bn',
-    'Urdu': 'ur',
-    'Punjabi': 'pa',
-    'Tamil': 'ta'
+    "Arabic": "ar",
+    "Chinese Simplified": "zh-Hans",
+    "Chinese Traditional": "zh-Hant",
+    "English": "en",
+    "French": "fr",
+    "German": "de",
+    "Spanish": "es",
+    "Italian": "it",
+    "Japanese": "ja",
+    "Korean": "ko",
+    "Dutch": "nl",
+    "Portuguese": "pt",
+    "Russian": "ru",
+    "Turkish": "tr",
+    "Vietnamese": "vi",
+    "Hindi": "hi",
+    "Bengali": "bn",
+    "Urdu": "ur",
+    "Punjabi": "pa",
+    "Tamil": "ta"
 }
 code2lang = {
-    'ar': 'Arabic',
-    'zh-Hans': 'Chinese Simplified',
-    'zh-Hant': 'Chinese Traditional',
-    'en': 'English',
-    'fr': 'French',
-    'de': 'German',
-    'es': 'Spanish',
-    'it': 'Italian',
-    'ja': 'Japanese',
-    'ko': 'Korean',
-    'nl': 'Dutch',
-    'pt': 'Portuguese',
-    'ru': 'Russian',
-    'tr': 'Turkish',
-    'vi': 'Vietnamese',
-    'hi': 'Hindi',
-    'bn': 'Bengali',
-    'ur': 'Urdu',
-    'pa': 'Punjabi',
-    'ta': 'Tamil'
+    "Arabic": "ar",
+    "Chinese Simplified": "zh-Hans",
+    "Chinese Traditional": "zh-Hant",
+    "English": "en",
+    "French": "fr",
+    "German": "de",
+    "Spanish": "es",
+    "Italian": "it",
+    "Japanese": "ja",
+    "Korean": "ko",
+    "Dutch": "nl",
+    "Portuguese": "pt",
+    "Russian": "ru",
+    "Turkish": "tr",
+    "Vietnamese": "vi",
+    "Hindi": "hi",
+    "Bengali": "bn",
+    "Urdu": "ur",
+    "Punjabi": "pa",
+    "Tamil": "ta"
 }
 
 
