@@ -1,4 +1,4 @@
-fitz
 requests
 frontend
 PyMuPDF
+fitz
