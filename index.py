@@ -1,4 +1,6 @@
 import streamlit as st
+st.set_config(backend="static")
+
 import tempfile
 import os
 import fitz
