@@ -1,5 +1,8 @@
 import streamlit as st
-st.set_config(backend="static")
+st.markdown(
+    '<style>body {background-color: #f0f2f6;}</style>',
+    unsafe_allow_html=True
+)
 
 import tempfile
 import os
