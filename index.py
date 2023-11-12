@@ -1,8 +1,5 @@
 import streamlit as st
-st.markdown(
-    '<style>body {background-color: #f0f2f6;}</style>',
-    unsafe_allow_html=True
-)
+st.write("Current working directory:", os.getcwd())
 
 import tempfile
 import os
